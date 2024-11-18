@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8f0; /* Cor de fundo suave */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para o topo */
+        .topo {
+            background-color: #3e8e41; /* Verde como o Shrek */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        /* Estilo para o nome */
+        .nome {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        /* Estilo para as colunas */
+        .coluna {
+            border: 3px solid #0aff12; /* Contorno verde */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #e8f5e9; /* Fundo leve verde */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        /* Estilo para os títulos dentro das colunas */
+        .section-title {
+            text-align: center;
+            color: #388e3c;
+            margin-bottom: 20px;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #388e3c; /* Verde escuro */
+            border-color: #388e3c;
+        }
+
+        .btn-primary:hover {
+            background-color: #4CAF50; /* Verde mais claro */
+            border-color: #4CAF50;
+        }
+
+        /* Estilo do botão de download */
+        .download-btn {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .coluna {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Topo -->
+    <div class="topo">
+        <h1>TDE - PORTFÓLIO</h1>
+        <p class="nome">Felipe Da Silva Cesca</p>
+    </div>
+
+    <!-- Seção de Projetos -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 coluna">
+                <div class="section-title">
+                    <h3>Woody's Train Trouble</h3>
+                </div>
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image1.png" class="d-block w-100" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image2.png" class="d-block w-100" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image3.png" class="d-block w-100" alt="Imagem 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <p class="text-center">Este projeto foi feito no Construct 3. O resultado final é ótimo e possui elementos de: jogabilidade, gráficos e interações. Está totalmente funcional e pronto para ser jogado.</p>
+                <div class="download-btn">
+                    <a href="https://github.com/iCescaa/Woody-s-TT" class="btn btn-primary" download>Download</a>
+                </div>
+            </div>
+            <div class="col-md-4 coluna">
+                <div class="section-title">
+                    <h3>Recycle Right - Java Edition</h3>
+                </div>
+                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image4.png" class="d-block w-100" alt="Imagem 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image5.png" class="d-block w-100" alt="Imagem 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image6.png" class="d-block w-100" alt="Imagem 6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <p class="text-center">Este projeto complexo feito no Processing utilizando a linguagem Java. Gameficamos o conteúdo de reciclagem para ser interativo durante a aprendizagem. É um projeto detalhado, com muitas telas e funcionalidades.</p>
+                <div class="download-btn">
+                    <a href="https://github.com/iCescaa/Recycle-Right---Java" class="btn btn-primary" download>Download</a>
+                </div>
+            </div>
+            <div class="col-md-4 coluna">
+                <div class="section-title">
+                    <h3>Recycle Right - Web Edition</h3>
+                </div>
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image7.png" class="d-block w-100" alt="Imagem 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image8.png" class="d-block w-100" alt="Imagem 8">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image9.png" class="d-block w-100" alt="Imagem 9">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <p class="text-center">Esta é uma nova edição do Recycle Right para a web, que originalmente era um programa java, mantém todas as funções originais, porém com foco a longo prazo como produto mutável para receber novos conteúdos.</p>
+                <div class="download-btn">
+                    <a href="https://github.com/nogueiiiiiiiiira/Projeto-WEB" class="btn btn-primary" download>Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
